@@ -44,20 +44,22 @@
     <main>
         <section class="main-slide">
             <h2 class="sr-only">웹사이트 슬라이드 영역</h2>
-            <ul>
-                <li>
-                    <a href="#"><img src="./assets/images/slide1.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="#"><img src="./assets/images/slide2.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="#"><img src="./assets/images/slide3.png" alt=""></a>
-                </li>
-            </ul>
+            <div class="slide-images">
+                <ul class="clearfix">
+                    <li class="show">
+                        <a href="#"><img src="./assets/images/slide1.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/images/slide2.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./assets/images/slide3.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
             <div class="slide-btns">
-                <button type="button"><span class="sr-only">이전</span></button>
-                <button type="button"><span class="sr-only">다음</span></button>
+                <button type="button" class="prev"><span class="sr-only">이전</span></button>
+                <button type="button" class="next"><span class="sr-only">다음</span></button>
             </div>
         </section>
         <section class="contents">

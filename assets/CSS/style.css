@@ -86,3 +86,52 @@
 .banner img {
   width: 100%;
 }
+
+/* Main section  */
+/* Main Slide - Main  */
+.main-slide {
+  position: relative;
+  background-color: #f0f3f8;
+}
+
+.slide-images {
+  position: relative;
+  width: 1000px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #ebebeb;
+  overflow: hidden;
+}
+
+.slide-images ul {
+  width: 300%;
+  overflow: hidden;
+}
+
+.slide-images li {
+  display: none;
+  float: left;
+}
+
+.slide-images li.show {
+  display: block;
+}
+
+.slide-btns button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 43px;
+  height: 43px;
+  background: url(../images/icons.png) no-repeat;
+}
+
+.slide-btns .prev {
+  left: 10%;
+  background-position: -150px 0;
+}
+
+.slide-btns .next {
+  right: 10%;
+  background-position: -150px -43px;
+}
