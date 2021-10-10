@@ -77,3 +77,12 @@
 .youtube::before {
   content: "\f167";
 }
+
+/*  Banner Section   */
+.banner a {
+  display: block;
+}
+
+.banner img {
+  width: 100%;
+}
