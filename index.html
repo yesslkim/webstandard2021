@@ -17,6 +17,8 @@
 
 <body>
     <header class="header">
+        <h1 class="title">Example of Web Accessibility Website</h1>
+        <!-- //title  -->
         <nav class="main-nav">
             <ul>
                 <li><a href="#">About</a></li>
@@ -24,13 +26,14 @@
                 <li><a href="#">Community</a></li>
             </ul>
         </nav>
-        <h1>Example of Web Accessibility Website</h1>
-        <ul class="sns-menu">
+        <!-- //main-menu  -->
+        <ul class="sub-menu">
             <li><a href="#" class="github"><span class="sr-only">Github</span></a></li>
             <li><a href="#" class="instagram"><span class="sr-only">Instagram</span></a></li>
             <li><a href="#" class="twitter"><span class="sr-only">Twitter</span></a></li>
             <li><a href="#" class="youtube"><span class="sr-only">Youtube</span></a></li>
         </ul>
+        <!-- //sub-menu  -->
     </header>
     <!-- //Header  -->
     <aside class="banner">
@@ -39,6 +42,7 @@
     <!-- //Banner section  -->
     <main>
         <section class="main-slide">
+            <h2 class="sr-only">웹사이트 슬라이드 영역</h2>
             <ul>
                 <li>
                     <a href="#"><img src="./assets/images/slide1.png" alt=""></a>
@@ -55,20 +59,20 @@
                 <button type="button"><span class="sr-only">다음</span></button>
             </div>
         </section>
-        <div class="contents-wrapper">
-            <section class="left-content">
-                <div class="left-header">
+        <section class="contents">
+            <div class="notice">
+                <div class="cont-header">
                     <div>
                         <h2>Notice</h2>
                         <p>다양한 웹사이트의 공지사항 유형을 마크업 해보았습니다.</p>
                     </div>
                 </div>
-                <section class="left-notice1">
-                    <div class="notice-header">
+                <section class="notice-type1">
+                    <div class="cont-subheader">
                         <h3>웹 표준 질문 게시판</h3>
                         <a href="#"><span class="sr-only ir-plus">더 보기</span></a>
                     </div>
-                    <div class="notice1">
+                    <div class="notice-content1">
                         <ul>
                             <li>
                                 <a href="#">웹 표준 질문 게시판의 첫번째 게시글입니다.</a>
@@ -88,12 +92,12 @@
                         </ul>
                     </div>
                 </section>
-                <section class="left-notice2">
-                    <div class="notice-header">
+                <section class="notice-type2">
+                    <div class="cont-subheader">
                         <h3>웹 접근성 질문 게시판</h3>
                         <a href="#"><span class="sr-only ir-plus">더 보기</span></a>
                     </div>
-                    <div class="notice2">
+                    <div class="notice-content2">
                         <ul>
                             <li>
                                 <a href="#">웹 접근성 질문 게시판의 첫번째 게시글입니다.</a>
@@ -118,16 +122,17 @@
                         </ul>
                     </div>
                 </section>
-            </section>
-            <section class="middle-content">
-                <div class="content-header">
+            </div>
+            <!-- //Notice  -->
+            <div class="blog">
+                <div class="cont-header">
                     <div>
                         <h2>Blog</h2>
                         <p>기본적인 블로그 미리보기 유형을 마크업 해보았습니다.</p>
                     </div>
                 </div>
-                <section class="blog">
-                    <div class="blog-header">
+                <section class="blog-type">
+                    <div class="cont-subheader">
                         <h3>HTML 시맨틱 태그란?</h3>
                         <a href="#"><span class="sr-only ir-plus">더 보기</span></a>
                     </div>
@@ -180,94 +185,96 @@
                         </ul>
                     </div>
                 </section>
-            </section>
-            <section class="components">
-                <div class="components-header">
+            </div>
+            <!-- //Blog  -->
+            <div class="components">
+                <div class="cont-header">
                     <h3>UI 컴포넌트</h3>
                     <a href="#"><span class="sr-only ir-plus">더 보기</span></a>
                 </div>
-                <div class="components-content">
-                    <div class="tab-component">
-                        <ul>
-                            <li>
-                                <a href="#">메뉴1</a>
-                                <ul>
-                                    <li>
-                                        <a href="#">필독 | 공지사항의 중 1번째 게시글입니다.</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">필독 | 공지사항의 중 2번째 게시글입니다.</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">필독 | 공지사항의 중 3번째 게시글입니다.</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">필독 | 공지사항의 중 4번째 게시글입니다.</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">메뉴2</a>
-                                <ul>
-                                    <li>
-                                        <a href="#">필독 | 공지사항의 중 1번째 게시글입니다.</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">필독 | 공지사항의 중 2번째 게시글입니다.</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">필독 | 공지사항의 중 3번째 게시글입니다.</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">필독 | 공지사항의 중 4번째 게시글입니다.</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">메뉴3</a>
-                                <ul>
-                                    <li>
-                                        <a href="#">필독 | 공지사항의 중 1번째 게시글입니다.</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">필독 | 공지사항의 중 2번째 게시글입니다.</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">필독 | 공지사항의 중 3번째 게시글입니다.</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">필독 | 공지사항의 중 4번째 게시글입니다.</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="gallery-component">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <img src="./assets/images/gallery1.jpg" alt="화면을 보는 여인">
-                                    <span>바로가기</span>
-                                </a>
+                <section class="ui-type1">
+                    <h4 class="sr-only">탭 메뉴 컴포넌트</h4>
+                    <ul>
+                        <li>
+                            <a href="#">메뉴1</a>
+                            <ul>
+                                <li>
+                                    <a href="#">필독 | 공지사항의 중 1번째 게시글입니다.</a>
+                                </li>
+                                <li>
+                                    <a href="#">필독 | 공지사항의 중 2번째 게시글입니다.</a>
+                                </li>
+                                <li>
+                                    <a href="#">필독 | 공지사항의 중 3번째 게시글입니다.</a>
+                                </li>
+                                <li>
+                                    <a href="#">필독 | 공지사항의 중 4번째 게시글입니다.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">메뉴2</a>
+                            <ul>
+                                <li>
+                                    <a href="#">필독 | 공지사항의 중 1번째 게시글입니다.</a>
+                                </li>
+                                <li>
+                                    <a href="#">필독 | 공지사항의 중 2번째 게시글입니다.</a>
+                                </li>
+                                <li>
+                                    <a href="#">필독 | 공지사항의 중 3번째 게시글입니다.</a>
+                                </li>
+                                <li>
+                                    <a href="#">필독 | 공지사항의 중 4번째 게시글입니다.</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">메뉴3</a>
+                            <ul>
+                                <li>
+                                    <a href="#">필독 | 공지사항의 중 1번째 게시글입니다.</a>
+                                </li>
+                                <li>
+                                    <a href="#">필독 | 공지사항의 중 2번째 게시글입니다.</a>
+                                </li>
+                                <li>
+                                    <a href="#">필독 | 공지사항의 중 3번째 게시글입니다.</a>
+                                </li>
+                                <li>
+                                    <a href="#">필독 | 공지사항의 중 4번째 게시글입니다.</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="ui-type2">
+                    <h4 class="sr-only">갤러리형 컴포넌트 및 다양한 마우스오버</h4>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/images/gallery1.jpg" alt="화면을 보는 여인">
+                                <span>바로가기</span>
+                            </a>
 
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="./assets/images/gallery2.jpg" alt="미팅 중 책상 사진">
-                                    <span>바로가기</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="./assets/images/gallery3.jpg" alt="프로그래밍 코드 사진">
-                                    <span>바로가기</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/images/gallery2.jpg" alt="미팅 중 책상 사진">
+                                <span>바로가기</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/images/gallery3.jpg" alt="프로그래밍 코드 사진">
+                                <span>바로가기</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <!-- //Components  -->
+        </section>
     </main>
     <!-- //Main section  -->
     <footer>
@@ -290,11 +297,13 @@
                 </li>
             </ul>
         </div>
+        <!-- //Footer-nav  -->
         <div class="copyright">
             <p>
                 Copyright &copy;example.co.kr All Right Reserved
             </p>
         </div>
+        <!-- //Copyright  -->
         <div class="website-validation">
             <a href="#">
                 <img src="./assets/images/html.png" alt="HTML 코드 유효성 검사 완료 로고">
@@ -303,6 +312,7 @@
                 <img src="./assets/images/css.gif" alt="CSS 코드 유효성 검사 완료 로고">
             </a>
         </div>
+        <!-- //Validation  -->
     </footer>
     <!-- //Footer  -->
 
