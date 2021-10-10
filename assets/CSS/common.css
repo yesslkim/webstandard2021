@@ -50,3 +50,15 @@ h5 {
   display: block;
   clear: both;
 }
+
+.ico::before {
+  display: block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ico-brand::before {
+  font-family: "Font Awesome 5 Brands";
+}

@@ -1,0 +1,79 @@
+/*  Header  */
+
+.header {
+  position: relative;
+  height: 350px;
+  background: url(../images/header-bg.png) no-repeat;
+  background-size: cover;
+}
+
+.header .title {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+.main-nav {
+  position: absolute;
+  right: 0;
+}
+
+.main-nav li {
+  float: left;
+}
+
+.main-nav a {
+  display: block;
+  padding: 15px 20px;
+}
+
+.main-nav a:hover {
+  color: #654ba5;
+  text-decoration: underline;
+}
+
+.sub-menu {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sub-menu li {
+  float: left;
+  position: relative;
+  border: 1px solid #272727;
+  border-radius: 20px;
+}
+
+.sub-menu a {
+  display: block;
+  width: 80px;
+  height: 40px;
+}
+
+.sub-menu .ico::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-align: center;
+}
+
+.github::before {
+  content: "\f09b";
+}
+
+.instagram::before {
+  content: "\f16d";
+}
+
+.twitter::before {
+  content: "\f099";
+}
+
+.youtube::before {
+  content: "\f167";
+}
